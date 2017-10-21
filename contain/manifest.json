@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Contain",
+  "version": "0.1",
+  "description": "This extension does the setup containers for common networks.",
+  "icons": {
+    "128": "images/checked.png"
+  },
+  "permissions": [
+    "cookies",
+    "contextualIdentities",
+    "tabs",
+    "storage"
+  ],
+  "sidebar_action": {
+    "browser_style": true,
+    "default_icon": "images/checked.png",
+    "default_title": "Contain",
+    "default_panel": "index.html"
+  }
+}

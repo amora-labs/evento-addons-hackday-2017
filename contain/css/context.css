@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.context {
+  padding: 0;
+  list-style: none;
+}
+
+.context__item {}
+
+.context__button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.context__button:hover {
+  background: #eee;
+}
+
+.pannel {
+  display: none;
+}
+
+.pannel__button {}
+
+.pannel__list {
+  padding: 0;
+  list-style: none;
+}
+
+.pannel__item {
+  padding: 0 10px;
+}
+
+.pannel__link {
+  color: #000;
+}
