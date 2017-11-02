@@ -1,0 +1,44 @@
+{
+  "name": "browser-addon-image-recognition",
+  "version": "1.0.0",
+  "description": "Image recognition for any image",
+  "main": "manifest.json",
+  "author": "Vinicius Reis <luiz.vinicius73@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "webpack -p",
+    "watch": "webpack --watch",
+    "production": "yarn run build:prod && gulp production"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "del": "^3.0.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "file-loader": "^1.1.4",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.4.0",
+    "gulp-zip": "^4.0.0",
+    "node-sass": "^4.5.3",
+    "ora": "^1.3.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "clarifai": "^2.4.0",
+    "lodash": "^4.17.4",
+    "vue": "^2.5.2"
+  }
+}
